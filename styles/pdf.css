@@ -1,0 +1,61 @@
+@page {
+  margin: 25mm 22mm 25mm 22mm;
+}
+
+body {
+  font-family: serif;
+  line-height: 1.5;
+  font-size: 11pt;
+}
+
+h1 {
+  page-break-before: always;
+  font-size: 22pt;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 16pt;
+  margin-top: 18pt;
+}
+
+h3 {
+  font-size: 13pt;
+  margin-top: 14pt;
+}
+
+p {
+  margin-bottom: 8pt;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12pt 0;
+  font-size: 9.5pt;
+}
+
+th, td {
+  border: 0.5pt solid #777;
+  padding: 5pt;
+  vertical-align: top;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 12pt auto 6pt auto;
+}
+
+pre {
+  border: 0.5pt solid #aaa;
+  padding: 6pt;
+  white-space: pre-wrap;
+}
+
+
+.pagebreak {
+  page-break-before: always;
+  break-before: page;
+}

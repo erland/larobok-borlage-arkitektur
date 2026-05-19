@@ -1,0 +1,51 @@
+title: Ta fram börläge och arkitektur
+subtitle: Praktisk handledning för verksamhets- och IT-arkitekter i större statliga
+  myndigheter
+author: Erland Lindmark
+language: sv
+difficulty: basic
+audience: Verksamhetsarkitekter och IT-arkitekter
+book_type: handbook
+edition: '1'
+version: '0.40'
+date: '2026-05-19'
+rights: All rights reserved
+publisher: ''
+cover_image: assets/cover/cover.png
+identifier: urn:uuid:784d1deb-2378-44bd-94e5-3c8268a53221
+creator_role: aut
+subject: Verksamhetsarkitektur
+description: Praktisk handledning för att ta fram börläge och tillhörande arkitektur
+  för ett utvecklingsområde.
+project_slug: borlage-arkitektur-projekt
+chapters:
+- chapters/00-inledning.md
+- chapters/utvecklingsomradet-som-arkitekturkontext-01.md
+- chapters/vad-menas-med-borlage-02.md
+- chapters/forbered-arbetet-03.md
+- chapters/skapa-en-gemensam-problembild-04.md
+- chapters/formulera-principer-och-malbild-05.md
+- chapters/beskriv-borlage-for-arbetssatt-06.md
+- chapters/beskriv-borlage-for-resurser-och-organisation-07.md
+- chapters/beskriv-borlage-for-information-08.md
+- chapters/beskriv-borlage-for-verktyg-och-teknik-09.md
+- chapters/beskriv-borlage-for-regelverk-och-styrning-10.md
+- chapters/sammanfoga-arkitekturen-11.md
+- chapters/analysera-gap-och-konsekvenser-12.md
+- chapters/ta-fram-fardplan-och-overgangsarkitektur-13.md
+- chapters/kommunicera-och-forankra-borlaget-14.md
+- chapters/kvalitetssakra-arkitekturen-15.md
+- chapters/praktiskt-exempel-fran-start-till-borlage-16.md
+- chapters/mallbibliotek-och-checklistor-17.md
+exports:
+  epub:
+    enabled: true
+    include_text_toc: false
+    airy_layout: true
+    render_markdown_styles: true
+  pdf:
+    enabled: true
+    include_toc_before_introduction: true
+    render_markdown_styles: true
+  markdown:
+    enabled: true
